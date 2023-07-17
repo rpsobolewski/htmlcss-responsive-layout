@@ -15,7 +15,39 @@ body{
     background-color:#0084FD ;
 
 }
+.container{
+    max-width: 1152px;
+    width: 90%;
+    margin: auto;
+}
 
+.container .col-12{
+    background-color:#B5DDFF ;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color:#5B6F80 ;
+}
+.container .col-12 h2{
+    color: #0084FD;
+    margin-bottom: 20px;
+}
+.app_store{
+    background-color: #0084FD;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+.col-12 img{
+    margin-bottom: -19px;
+    
+}
+.icon{
+    color: #0084FD;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
 
 
 /*utility*/
@@ -27,6 +59,15 @@ body{
 }
 .d-none{
     display: none;
+}
+.col-12{
+    width:100% ;
+}
+.ta-center{
+    text-align: center;
+}
+.ta-left{
+    text-align: left;
 }
 /*utility*/
 /*btn*/
@@ -40,7 +81,7 @@ body{
 
 /*desktop*/
 
-.nav_lg a{
+a{
     text-decoration: none;
     color: white;
     padding: 5px;
