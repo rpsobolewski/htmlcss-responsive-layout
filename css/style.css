@@ -1,182 +1,238 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'PT Sans', sans-serif;
 }
-header{
-     background-color:#0084FD ;
+
+header {
+    background-color: #0084FD;
 }
 
-.nav{
+a{
+    text-decoration: none;
+    color: white;
+}
+.nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
     width: 90%;
     max-width: 1152px;
     margin: auto;
-   
+
 
 }
-.container{
+
+.container {
     max-width: 1152px;
     width: 90%;
     margin: auto;
 }
 
-.blue .col-12{
-    background-color:#B5DDFF ;
+.blue .col-12 {
+    background-color: #B5DDFF;
     padding: 15px;
     margin-top: 20px;
     border-radius: 10px;
-    color:#5B6F80 ;
+    color: #5B6F80;
 }
-.blue .col-12 h2{
+
+.blue .col-12 h2 {
     color: #0084FD;
     margin-bottom: 20px;
 }
-.col-md-8{
+
+.col-md-8 {
     display: flex;
     flex-direction: column;
-    
+
 }
-.app_store{
+
+.app_store {
+    color: white;
     background-color: #0084FD;
     padding: 10px;
     border-radius: 20px;
     margin: 40px 0;
-    max-width:258px ;
+    max-width: 258px;
 }
 
 
-.icon{
+.icon {
     color: #0084FD;
     font-size: 70px;
     margin-bottom: 15px;
 }
-.phone{
-    max-height:287px ;
+
+.phone {
+    max-height: 287px;
     max-width: 258px;
     margin-bottom: -15px;
-    
+
 }
-.purple{
+
+.purple {
     margin: 20px 0;
-    background-color:#9792E4 ;
+    background-color: #9792E4;
     color: white;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
 }
-.planning2{
+
+.planning2 {
     background-color: white;
     color: black;
     margin: 15px 0;
-    border-radius: 10px;
+    border-radius: 20px;
     padding-bottom: 20px;
 }
-.purple h2{
+
+
+.purple h2 {
     margin: 15px 0;
+}
+
+.col-lg-6 {
+    padding: 15px;
 }
 
 
 
 /*utility*/
-.white{
+.white {
     color: white;
 }
-.flex{
+
+.flex {
     display: flex;
 }
-.d-none{
+
+.d-none {
     display: none;
 }
-.col-12{
-    width:100% ;
+
+.col-12 {
+    width: 100%;
 }
-.ta-center{
+
+.ta-center {
     text-align: center;
 }
-.ta-left{
+
+.ta-left {
     text-align: left;
 }
 
 /*utility*/
 /*btn*/
-.nav_lg .btn_white{
+.nav_lg .btn_white {
     color: black;
     background-color: white;
     border-radius: 15px;
     padding: 5px 10px;
 }
 
-.btn_arrow{
+.btn_arrow {
     border-radius: 50%;
     aspect-ratio: 1;
     width: 40px;
     background-color: #9792E4;
-    color:black;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
     margin-top: 20px;
-    
+
 }
+
 /*btn*/
 
 
 
 /*md*/
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
+
     /*uti*/
-    .col-md-8{
-        width: calc(100% / 12 * 8 - 20px) ;
-        margin:0 10px;
+    .col-md-8 {
+        width: calc(100% / 12 * 8 - 20px);
+        margin: 0 10px;
     }
-    .col-md-4{
+
+    .col-md-4 {
         width: calc(100% / 12 * 4 - 20px);
-        margin:0 10px;
+        margin: 0 10px;
 
     }
+
     /*uti*/
-    .blue{
+    .blue {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .col-md-4 p{
-        line-height:1.6;
+
+    .col-md-4 p {
+        line-height: 1.6;
+    }
+    .planning1 h2{
+        font-size: 50px;
     }
 }
+
 /*md*/
 
 /*lg*/
 
-a{
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-}
+
 
 @media screen and (min-width:1024px) {
+    a {
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+    }
 
-    
-    .d-lg-none{
+    .d-lg-none {
         display: none;
     }
-    .d-lg-block{
+
+    .d-lg-block {
         display: block
     }
-    
-    .col-md-8{
+
+    .col-md-8 {
         flex-direction: row;
     }
-    
-    .phone{
+
+    .phone {
         align-self: flex-end;
     }
+
+    .col-lg-6 {
+        width: calc(100% / 12 * 6);
+    }
+
+    .purple .container {
+        display: flex;
+    }
+
+    .planning1 h2 {
+        padding-top: 120px;
+        padding-bottom: 80px;
+        font-size: 30px;
+    }
+
+    
+    .planning2 {
+        align-self: self-end;
+    }
+
 }
+
 /*lg*/
