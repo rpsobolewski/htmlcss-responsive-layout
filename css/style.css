@@ -6,13 +6,15 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
-
+header{
+     background-color:#0084FD ;
+}
 
 .nav{
     justify-content: space-between;
     align-items: center;
     padding: 10px 15px;
-    background-color:#0084FD ;
+   
 
 }
 .container{
@@ -37,16 +39,19 @@ body{
     padding: 10px;
     border-radius: 20px;
     margin: 40px 0;
+    max-width:258px ;
 }
 
-.col-12 img{
-    margin-bottom: -19px;
-    
-}
+
 .icon{
     color: #0084FD;
     font-size: 70px;
     margin-bottom: 15px;
+}
+.phone{
+    max-height:287px ;
+    max-width: 258px;
+    margin-bottom: -19px;
 }
 
 
@@ -79,7 +84,30 @@ body{
 }
 /*btn*/
 
-/*desktop*/
+
+
+/*md*/
+@media screen and (min-width:768px){
+    /*uti*/
+    .col-md-8{
+        width: calc(99% / 12 * 8);
+    }
+    .col-md-4{
+        width: calc(95% / 12 * 4);
+    }
+    /*uti*/
+    .blue{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col-md-4 p{
+        line-height: 2;
+    }
+}
+/*md*/
+
+/*lg*/
 
 a{
     text-decoration: none;
@@ -88,11 +116,20 @@ a{
 }
 
 @media screen and (min-width:1024px) {
+
+    .nav{
+        width: 92%;
+        margin: auto;
+    }
     .d-lg-none{
         display: none;
     }
     .d-lg-block{
         display: block
     }
+    .col-md-8{
+        display: flex;
+    }
+    
 }
-/*desktop*/
+/*lg*/
