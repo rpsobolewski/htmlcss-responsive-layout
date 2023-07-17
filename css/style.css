@@ -26,14 +26,14 @@ header{
     margin: auto;
 }
 
-.container .col-12{
+.blue .col-12{
     background-color:#B5DDFF ;
     padding: 15px;
     margin-top: 20px;
     border-radius: 10px;
     color:#5B6F80 ;
 }
-.container .col-12 h2{
+.blue .col-12 h2{
     color: #0084FD;
     margin-bottom: 20px;
 }
@@ -62,6 +62,25 @@ header{
     margin-bottom: -15px;
     
 }
+.purple{
+    margin: 20px 0;
+    background-color:#9792E4 ;
+    color: white;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+.planning2{
+    background-color: white;
+    color: black;
+    margin: 15px 0;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.purple h2{
+    margin: 15px 0;
+}
+
 
 
 /*utility*/
@@ -91,6 +110,20 @@ header{
     background-color: white;
     border-radius: 15px;
     padding: 5px 10px;
+}
+
+.btn_arrow{
+    border-radius: 50%;
+    aspect-ratio: 1;
+    width: 40px;
+    background-color: #9792E4;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    
 }
 /*btn*/
 
