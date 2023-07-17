@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.nav{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    background-color:#0084FD ;
+
+}
+
+
+
+/*utility*/
+.white{
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.d-none{
+    display: none;
+}
+/*utility*/
+/*btn*/
+.nav_lg .btn_white{
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+/*btn*/
+
+/*desktop*/
+
+.nav_lg a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+@media screen and (min-width:1024px) {
+    .d-lg-none{
+        display: none;
+    }
+    .d-lg-block{
+        display: block
+    }
+}
+/*desktop*/
