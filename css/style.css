@@ -237,6 +237,49 @@ a {
 }
 /*about*/
 
+/*get_started*/
+.get_started{
+    background-color: #9792E4;
+}
+.get_started h3{
+    color: #d1cff5;
+    font-weight: 400;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    
+}
+.get_started h2{
+    color: white;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.get_started h1{
+    color:#FDC15F ;
+    font-size: 60px;
+    padding: 10px 0;
+}
+.get_started p{
+    line-height: 1.6;
+    color: white;
+}
+.get_started_btn{
+    margin: 30px 0;
+    
+}
+.copyright{
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+.copyright a{
+    text-decoration: underline;
+}
+.get_started .container{
+    max-width: 500px;
+}
+/*get_started*/
+
+
+
 
 
 /*utility*/
@@ -297,6 +340,12 @@ a {
 .linkedin_btn{
     background-color: #9792E4;
     padding: 10px 20px;
+    border-radius: 20px;
+}
+.get_started_btn a{
+    background-color: white;
+    color: #9792E4;
+    padding: 10px 25px;
     border-radius: 20px;
 }
 /*btn*/
