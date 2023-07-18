@@ -45,6 +45,9 @@ a{
     color: #0084FD;
     margin-bottom: 20px;
 }
+.blue p{
+    font-weight: 700;
+}
 
 .col-md-8 {
     display: flex;
@@ -100,6 +103,47 @@ a{
 .col-lg-6 {
     padding: 15px;
 }
+/*testimonials*/
+.testimonials h2{
+    font-size: 20px;
+    padding: 15px;
+}
+.testimonials h1{
+    color:#9792E4 ;
+    padding: 15px;
+}
+.testimonials p{
+    line-height: 1.6;
+}
+.testimonial{
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+    align-self: center;
+    max-width: 200px;
+}
+
+
+.testimonials .col-12{
+    background-color: #9792E4;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.testimonials .col-12 p{
+    color: white;
+    margin: 30px 0;
+
+}
+.testimonials .col-12 h2{
+    color: white;
+}
+
+/*testimonials*/
 
 
 
@@ -183,6 +227,15 @@ a{
     .planning1 h2{
         font-size: 50px;
     }
+    /*testimonials*/
+    .testimonials .col-12{
+        flex-direction: row;
+    }
+    .testimonials_text{
+        align-self: center;
+    }
+    /*testimonials*/
+
 }
 
 /*md*/
