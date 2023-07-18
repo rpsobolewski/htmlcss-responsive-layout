@@ -199,15 +199,41 @@ a {
 /*benefits*/
 
 /*about*/
-.about_text h2{
+.about{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.about_text h1{
     font-size: 40px;
     margin: 30px 0;
     color: #9792E4;
 }
 .about_text p{
-    line-height: 1.6;
+    line-height: 2;
     
 
+}
+.about_img h2{
+    font-size: 28px;
+    margin: 30px 0;
+    color: #9792E4;
+}
+.about_img{
+    position: relative;
+    margin-top: 20px;
+    
+}
+
+.about_img .fa-quote-left{
+    position: absolute;
+    color: #9792E4;
+    font-size: 65px;
+    left: 150px;
+    top: 30px;
+}
+.about_img .testimonial{
+    width: 200px;
 }
 /*about*/
 
@@ -268,6 +294,11 @@ a {
 
 }
 
+.linkedin_btn{
+    background-color: #9792E4;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
 /*btn*/
 
 
@@ -322,6 +353,18 @@ a {
         flex-wrap: wrap;
     }
     /*benefits*/
+    /*about*/
+    .about{
+        flex-direction: row;
+    }
+    .about_img{
+        margin-left: 20px;
+        max-width: 230px;
+        min-width: 30%;
+    }
+
+    /*about*/
+
 
 
 }
