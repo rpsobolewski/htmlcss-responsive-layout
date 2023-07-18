@@ -164,11 +164,13 @@ a {
     color: white;
     font-size: 20px;
 }
-.benefits_cards{
+
+.benefits_cards {
     display: flex;
     flex-direction: column;
     padding-bottom: 30px;
 }
+
 .benefits_cards .col-12 {
     background-color: white;
     padding: 15px;
@@ -199,84 +201,119 @@ a {
 /*benefits*/
 
 /*about*/
-.about{
+.about {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
 }
-.about_text h1{
+
+.about_text h1 {
     font-size: 40px;
     margin: 30px 0;
     color: #9792E4;
 }
-.about_text p{
+
+.about_text p {
     line-height: 2;
-    
+
 
 }
-.about_img h2{
+
+.about_img h2 {
     font-size: 28px;
     margin: 30px 0;
     color: #9792E4;
 }
-.about_img{
+
+.about_img {
     position: relative;
     margin-top: 20px;
-    
+
 }
 
-.about_img .fa-quote-left{
+.about_img .fa-quote-left {
     position: absolute;
     color: #9792E4;
     font-size: 65px;
     left: 150px;
     top: 30px;
 }
-.about_img .testimonial{
+
+.about_img .testimonial {
     width: 200px;
 }
+
 /*about*/
 
 /*get_started*/
-.get_started{
+.get_started {
     background-color: #9792E4;
 }
-.get_started h3{
+
+.get_started h3 {
     color: #d1cff5;
     font-weight: 400;
     padding-bottom: 20px;
     padding-top: 40px;
-    
+
 }
-.get_started h2{
+
+.get_started h2 {
     color: white;
     font-size: 30px;
     margin: 20px 0;
 }
-.get_started h1{
-    color:#FDC15F ;
+
+.get_started h1 {
+    color: #FDC15F;
     font-size: 60px;
     padding: 10px 0;
 }
-.get_started p{
+
+.get_started p {
     line-height: 1.6;
     color: white;
 }
-.get_started_btn{
-    margin: 30px 0;
-    
+
+.get_started_btn {
+    margin: 50px 0;
+
 }
-.copyright{
+
+.copyright {
     font-size: 13px;
     padding-bottom: 30px;
 }
-.copyright a{
+
+.copyright a {
     text-decoration: underline;
 }
-.get_started .container{
+
+.get_started .container {
     max-width: 500px;
 }
+
 /*get_started*/
+
+/*footer*/
+    footer{
+        background-color:#333333;
+        color: white;
+    }
+    footer p{
+        padding: 20px 0;
+    }
+    footer a{
+        color: #9792E4;
+        text-decoration: underline;
+    }
+    .careers{
+        padding-top: 30px;
+    }
+    footer .container {
+        max-width: 350px;
+    }
+/*footer*/
 
 
 
@@ -337,17 +374,20 @@ a {
 
 }
 
-.linkedin_btn{
+.linkedin_btn {
     background-color: #9792E4;
     padding: 10px 20px;
     border-radius: 20px;
 }
-.get_started_btn a{
+
+.get_started_btn a {
     background-color: white;
     color: #9792E4;
-    padding: 10px 25px;
-    border-radius: 20px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-size: 25px;
 }
+
 /*btn*/
 
 
@@ -360,6 +400,7 @@ a {
         width: calc(100% / 12 * 8 - 20px);
         margin: 0 10px;
     }
+
     .col-md-6 {
         width: calc(100% / 12 * 6 - 20px);
         margin: 0 10px;
@@ -397,16 +438,18 @@ a {
 
     /*testimonials*/
     /*benefits*/
-    .benefits_cards{
+    .benefits_cards {
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     /*benefits*/
     /*about*/
-    .about{
+    .about {
         flex-direction: row;
     }
-    .about_img{
+
+    .about_img {
         margin-left: 20px;
         max-width: 230px;
         min-width: 30%;
@@ -450,6 +493,7 @@ a {
     .col-lg-6 {
         width: calc(100% / 12 * 6);
     }
+
     .col-lg-4 {
         width: calc(100% / 12 * 4 - 20px);
         margin: 0 10px;
