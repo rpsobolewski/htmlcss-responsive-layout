@@ -87,6 +87,19 @@ a {
     line-height: 1.6;
     display: flex;
     flex-direction: column;
+    padding-bottom: 50px;
+}
+.visible{
+    display: block;
+}
+.invisible{
+    display: none;
+}
+.visible2{
+    display: block;
+}
+.invisible2{
+    display: none;
 }
 
 .planning2 {
@@ -371,13 +384,14 @@ a {
     background-color: #9792E4;
     padding: 10px 40px;
     border-radius: 20px;
-
+    border: 2px solid #9792E4;
 }
 
 .linkedin_btn {
     background-color: #9792E4;
     padding: 10px 20px;
     border-radius: 20px;
+    border: 2px solid #9792E4;
 }
 
 .get_started_btn a {
@@ -390,6 +404,69 @@ a {
 
 /*btn*/
 
+/*hover*/
+.btn_white:hover{
+    color: white;
+    background-color: black;
+}
+.app_store:hover{
+    background-color: white;
+  
+} 
+.app_store:hover a{
+   
+    color: #0084FD;
+} 
+
+.btn_arrow:hover{
+    color: #9792E4;
+    background-color: black;
+    font-size: 20px;
+}
+
+.btn_more:hover{
+    background-color: white;
+    color: #9792E4 ;
+}
+
+.linkedin_btn:hover{
+    background-color: white;
+    color: #9792E4;
+}
+
+.get_started_btn a:hover{
+    background-color: #9792E4;
+    color: white;
+    border: 2px solid white;
+}
+
+.planning1:hover .visible{
+    display: none; 
+   
+}
+.planning1:hover .invisible{
+    display: block;
+   
+}
+.planning2:hover .visible2{
+    display: none; 
+   
+}
+.planning2:hover .invisible2{
+    display: block;
+   
+}
+
+.benefits_cards .col-lg-4:hover{
+    transform: scale(1.01);
+}
+.benefits_cards .col-md-6:hover{
+    transform: scale(1.01);
+}
+.benefits_cards .col-12:hover{
+    transform: scale(1.01);
+}
+/*hover*/
 
 
 /*md*/
